@@ -1,0 +1,1429 @@
+[03-Nov-2022 11:05:11 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:05:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:07:08 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:07:57 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:10:24 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:12:07 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(156): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:15:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: You must provide at least one recipient email address. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:1481
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1419): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home1/copieba3/public_html/action.php(258): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1481
+[03-Nov-2022 11:16:32 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 3 No...', '<!DOCTYPE html>...')
+#2 /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/copieba3/public_html/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/copieba3/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Mar-2023 06:53:00 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:1879
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 M...', '<!DOCTYPE html>...')
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1879
+[15-Apr-2023 13:11:19 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 15 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[15-Apr-2023 13:12:47 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 15 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-Apr-2023 01:04:33 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Apr-2023 07:31:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 19 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[25-Apr-2023 06:07:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 25 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(158): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-May-2023 06:13:22 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-May-2023 11:04:46 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-May-2023 11:05:30 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[16-May-2023 00:36:24 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-May-2023 06:48:38 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-May-2023 09:03:34 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 18 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-May-2023 05:14:22 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 19 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-May-2023 04:58:05 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 21 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(358): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[29-May-2023 08:15:42 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(460): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Jul-2023 05:45:39 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[27-Jul-2023 05:45:39 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[22-Aug-2023 00:54:04 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[22-Aug-2023 00:54:04 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-Aug-2023 12:00:54 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 289
+[30-Aug-2023 12:00:54 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 290
+[04-Sep-2023 05:52:23 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[04-Sep-2023 05:52:23 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[04-Sep-2023 05:53:49 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[04-Sep-2023 05:53:49 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Sep-2023 02:38:06 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-Sep-2023 02:38:06 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Sep-2023 07:14:15 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Sep-2023 07:14:15 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Oct-2023 04:55:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Oct-2023 04:55:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Oct-2023 13:15:06 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[13-Oct-2023 13:15:06 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[13-Oct-2023 13:15:06 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[13-Oct-2023 13:15:06 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[13-Oct-2023 13:15:06 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2908
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/Hiring_mail.php(17): PHPMailer\PHPMailer\PHPMailer->addAttachment(NULL, NULL)
+#1 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2908
+[15-Oct-2023 09:41:04 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 185
+[15-Oct-2023 09:41:04 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 186
+[16-Oct-2023 02:15:22 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[16-Oct-2023 02:15:22 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[31-Oct-2023 08:50:22 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[31-Oct-2023 08:50:22 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Nov-2023 03:16:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Nov-2023 03:16:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[02-Nov-2023 06:36:33 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[02-Nov-2023 06:36:33 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[08-Dec-2023 21:05:53 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[08-Dec-2023 21:05:53 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Dec-2023 08:59:14 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Dec-2023 08:59:14 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Jan-2024 19:07:01 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Jan-2024 19:07:01 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Jan-2024 03:26:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Jan-2024 03:26:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[07-Feb-2024 02:38:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[07-Feb-2024 02:38:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[08-Feb-2024 17:29:08 America/Chicago] PHP Warning:  Undefined array key "myData" in /home1/loccomxg/copieronrent.com/action.php on line 2
+[13-Feb-2024 01:20:00 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Feb-2024 01:20:00 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Mar-2024 03:57:56 America/Chicago] PHP Warning:  Undefined array key "myData" in /home1/loccomxg/copieronrent.com/action.php on line 2
+[07-Mar-2024 04:54:54 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[07-Mar-2024 04:54:54 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Mar-2024 01:59:13 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[18-Mar-2024 01:59:13 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Mar-2024 11:28:22 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Mar-2024 11:28:22 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Apr-2024 02:39:29 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Apr-2024 02:39:29 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Apr-2024 11:45:07 America/Chicago] PHP Warning:  Undefined array key "myData" in /home1/loccomxg/copieronrent.com/action.php on line 2
+[06-May-2024 02:34:54 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-May-2024 02:34:54 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-May-2024 02:41:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-May-2024 02:41:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-May-2024 00:24:58 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-May-2024 00:24:58 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-Jun-2024 09:40:10 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Jun-2024 09:40:10 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-Jun-2024 10:09:41 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-Jun-2024 10:09:41 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Jul-2024 06:31:01 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Jul-2024 06:31:01 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Jul-2024 03:55:55 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Jul-2024 03:55:55 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[22-Jul-2024 04:06:44 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[22-Jul-2024 04:06:44 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[24-Jul-2024 06:34:36 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[24-Jul-2024 06:34:36 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2024 05:22:57 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2024 05:22:57 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Aug-2024 14:59:31 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Aug-2024 14:59:31 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[31-Aug-2024 10:13:19 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[31-Aug-2024 10:13:19 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Sep-2024 04:04:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Sep-2024 04:04:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Sep-2024 05:17:18 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Sep-2024 05:17:18 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[04-Sep-2024 10:47:23 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[04-Sep-2024 10:47:23 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Sep-2024 17:20:26 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[18-Sep-2024 17:20:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[18-Sep-2024 17:20:26 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[18-Sep-2024 17:20:26 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[18-Sep-2024 17:20:26 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2908
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/Hiring_mail.php(17): PHPMailer\PHPMailer\PHPMailer->addAttachment(NULL, NULL)
+#1 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2908
+[30-Sep-2024 06:50:21 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[30-Sep-2024 06:50:21 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[15-Oct-2024 04:14:17 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[15-Oct-2024 04:14:17 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-Oct-2024 00:50:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-Oct-2024 00:50:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-Oct-2024 04:25:33 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[30-Oct-2024 04:25:33 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[07-Nov-2024 21:40:47 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[07-Nov-2024 21:40:47 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[08-Nov-2024 03:28:00 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 185
+[08-Nov-2024 03:28:00 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 186
+[10-Nov-2024 09:57:20 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Nov-2024 09:57:20 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Nov-2024 00:50:03 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Nov-2024 00:50:03 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Nov-2024 01:26:15 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Nov-2024 01:26:15 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Dec-2024 23:09:34 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Dec-2024 23:09:34 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Dec-2024 08:36:18 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[18-Dec-2024 08:36:18 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Dec-2024 21:48:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Dec-2024 21:48:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[20-Dec-2024 06:01:18 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[20-Dec-2024 06:01:18 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Dec-2024 12:52:10 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Dec-2024 12:52:10 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Jan-2025 06:10:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Jan-2025 06:10:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[29-Jan-2025 03:02:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[29-Jan-2025 03:02:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Feb-2025 05:51:47 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Feb-2025 05:51:47 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[11-Feb-2025 08:17:00 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[11-Feb-2025 08:17:00 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-Feb-2025 11:47:02 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-Feb-2025 11:47:02 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Mar-2025 12:57:18 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Mar-2025 12:57:19 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Mar-2025 00:38:31 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Mar-2025 00:38:31 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Mar-2025 14:29:43 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Mar-2025 14:29:43 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Mar-2025 02:31:35 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Mar-2025 02:31:35 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-Mar-2025 00:44:19 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[30-Mar-2025 00:44:19 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[30-Mar-2025 00:44:19 America/Chicago] PHP Warning:  Undefined array key "hire_file" in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[30-Mar-2025 00:44:19 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/loccomxg/copieronrent.com/Hiring_mail.php on line 17
+[30-Mar-2025 00:44:19 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2908
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/Hiring_mail.php(17): PHPMailer\PHPMailer\PHPMailer->addAttachment(NULL, NULL)
+#1 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2908
+[01-Apr-2025 05:36:52 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Apr-2025 05:36:52 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Apr-2025 07:36:39 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Apr-2025 07:36:39 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Apr-2025 03:03:00 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Apr-2025 03:03:00 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[17-Apr-2025 15:37:16 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[17-Apr-2025 15:37:16 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Apr-2025 00:35:29 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Apr-2025 00:35:29 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Apr-2025 11:20:32 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Apr-2025 11:20:32 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-May-2025 07:21:46 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-May-2025 07:21:46 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-May-2025 08:30:10 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-May-2025 08:30:10 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[14-May-2025 12:24:35 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[14-May-2025 12:24:35 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-May-2025 07:35:19 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[30-May-2025 07:35:19 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-May-2025 07:35:20 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 30 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jun-2025 06:01:45 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jun-2025 06:01:45 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jun-2025 06:01:46 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jun-2025 06:03:42 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jun-2025 06:03:42 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jun-2025 06:03:43 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jun-2025 06:11:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jun-2025 06:11:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jun-2025 06:11:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-Jun-2025 07:27:47 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[11-Jun-2025 07:27:47 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[11-Jun-2025 07:27:48 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 11 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-Jun-2025 07:29:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[11-Jun-2025 07:29:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[11-Jun-2025 07:29:41 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 11 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[02-Jul-2025 14:55:10 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 2 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[02-Jul-2025 14:56:20 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 2 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[02-Jul-2025 14:59:05 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[02-Jul-2025 14:59:05 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[02-Jul-2025 14:59:06 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 2 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[03-Jul-2025 07:20:33 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[03-Jul-2025 07:20:33 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[03-Jul-2025 07:20:33 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 3 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jul-2025 00:45:16 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jul-2025 00:45:16 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jul-2025 00:45:16 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jul-2025 03:07:38 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jul-2025 03:07:39 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jul-2025 03:07:44 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jul-2025 03:08:20 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jul-2025 03:08:20 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jul-2025 03:08:21 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jul-2025 06:07:34 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jul-2025 06:07:34 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jul-2025 06:07:35 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[10-Jul-2025 05:32:59 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Jul-2025 05:32:59 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-Jul-2025 05:32:59 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 10 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[15-Jul-2025 00:18:30 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[15-Jul-2025 00:18:30 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[15-Jul-2025 00:18:31 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 15 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[16-Jul-2025 09:48:51 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[16-Jul-2025 09:48:51 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[16-Jul-2025 09:48:51 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 16 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[16-Jul-2025 09:50:21 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[16-Jul-2025 09:50:21 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[16-Jul-2025 09:50:22 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 16 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Jul-2025 01:11:24 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2025 01:11:24 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2025 01:11:24 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 28 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[06-Aug-2025 06:52:42 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-Aug-2025 06:52:42 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Aug-2025 06:52:43 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 6 Au...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[06-Aug-2025 06:52:56 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-Aug-2025 06:52:56 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Aug-2025 06:52:57 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 6 Au...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[13-Aug-2025 06:06:10 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Aug-2025 06:06:10 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Aug-2025 06:06:11 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 13 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[25-Aug-2025 22:23:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-Aug-2025 22:23:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-Aug-2025 22:23:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 25 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[30-Aug-2025 10:33:17 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[30-Aug-2025 10:33:17 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[30-Aug-2025 10:33:18 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 30 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[13-Sep-2025 04:43:44 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Sep-2025 04:43:44 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Sep-2025 04:43:45 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 13 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[13-Sep-2025 11:46:04 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Sep-2025 11:46:04 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Sep-2025 11:46:05 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 13 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[16-Sep-2025 10:11:24 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[16-Sep-2025 10:11:24 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[16-Sep-2025 10:11:24 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 16 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[17-Sep-2025 03:52:09 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Sep-2025 18:28:03 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 289
+[19-Sep-2025 18:28:03 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 290
+[19-Sep-2025 18:28:03 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 19 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Sep-2025 23:13:53 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 28 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[29-Sep-2025 02:02:08 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[29-Sep-2025 02:02:08 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[29-Sep-2025 02:02:09 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[10-Oct-2025 03:33:30 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Oct-2025 03:33:30 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-Oct-2025 03:33:31 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 10 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[10-Oct-2025 03:39:21 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Oct-2025 03:39:21 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-Oct-2025 03:39:21 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 10 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-Oct-2025 13:46:35 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Oct-2025 13:46:35 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Oct-2025 13:46:36 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 23 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Oct-2025 14:42:48 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[27-Oct-2025 14:42:48 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[27-Oct-2025 14:42:49 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Oct-2025 14:43:12 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[27-Oct-2025 14:43:12 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[27-Oct-2025 14:43:13 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 27 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[04-Nov-2025 01:43:15 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[04-Nov-2025 01:43:15 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[04-Nov-2025 01:43:16 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 4 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[04-Nov-2025 01:43:28 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[04-Nov-2025 01:43:28 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[04-Nov-2025 01:43:29 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 4 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[05-Nov-2025 10:09:19 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[05-Nov-2025 10:09:19 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[05-Nov-2025 10:09:20 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 5 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Nov-2025 04:49:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 9 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Nov-2025 04:51:55 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Nov-2025 04:51:55 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Nov-2025 04:51:56 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 9 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[12-Nov-2025 11:22:42 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Nov-2025 11:22:42 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Nov-2025 11:22:42 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 12 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[12-Nov-2025 11:23:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Nov-2025 11:23:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Nov-2025 11:23:10 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 12 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[13-Nov-2025 05:18:32 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 13 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Nov-2025 14:50:42 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Nov-2025 14:50:42 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Nov-2025 14:50:43 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 19 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[22-Nov-2025 00:15:54 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[22-Nov-2025 00:15:54 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[22-Nov-2025 00:15:54 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 22 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[22-Nov-2025 00:16:25 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[22-Nov-2025 00:16:25 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[22-Nov-2025 00:16:26 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 22 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Nov-2025 22:56:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[27-Nov-2025 22:56:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[27-Nov-2025 22:56:51 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 27 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[29-Nov-2025 19:55:27 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[29-Nov-2025 19:55:27 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[29-Nov-2025 19:55:28 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 29 N...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[01-Jan-2026 23:45:20 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 185
+[01-Jan-2026 23:45:20 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 186
+[01-Jan-2026 23:45:20 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 1 Ja...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[17-Jan-2026 00:48:58 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[17-Jan-2026 00:48:58 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[17-Jan-2026 00:48:59 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 17 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[20-Jan-2026 22:04:24 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[20-Jan-2026 22:04:24 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[20-Jan-2026 22:04:25 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 20 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[27-Jan-2026 04:02:54 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[27-Jan-2026 04:02:54 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[27-Jan-2026 04:02:54 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 27 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[17-Feb-2026 11:04:25 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[17-Feb-2026 11:04:25 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[17-Feb-2026 11:04:26 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 17 F...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-Feb-2026 04:17:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[18-Feb-2026 04:17:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Feb-2026 04:17:51 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 18 F...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-Feb-2026 22:35:43 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[18-Feb-2026 22:35:43 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Feb-2026 22:35:44 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 18 F...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Feb-2026 00:42:08 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 28 F...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-Mar-2026 11:02:49 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Mar-2026 11:02:49 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Mar-2026 11:02:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 23 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[26-Mar-2026 08:44:45 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[26-Mar-2026 08:44:45 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[26-Mar-2026 08:44:45 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 26 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[10-Apr-2026 14:04:17 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[10-Apr-2026 14:04:17 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[10-Apr-2026 14:04:18 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 10 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[06-May-2026 07:46:43 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-May-2026 07:46:43 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-May-2026 07:46:44 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 6 Ma...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[12-May-2026 13:27:15 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-May-2026 13:27:15 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-May-2026 13:27:15 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 12 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[20-May-2026 12:07:32 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[20-May-2026 12:07:32 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[20-May-2026 12:07:33 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 20 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-May-2026 19:47:00 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-May-2026 19:47:00 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-May-2026 19:47:00 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 23 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[25-May-2026 03:46:53 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-May-2026 03:46:53 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-May-2026 03:46:53 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 25 M...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[01-Jun-2026 01:25:33 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Jun-2026 01:25:33 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Jun-2026 01:25:33 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 1 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[03-Jun-2026 13:48:44 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 289
+[03-Jun-2026 13:48:44 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 290
+[03-Jun-2026 13:48:44 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 3 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[05-Jun-2026 13:18:04 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[05-Jun-2026 13:18:04 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[05-Jun-2026 13:18:04 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 5 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[08-Jun-2026 08:45:14 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[08-Jun-2026 08:45:14 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[08-Jun-2026 08:45:14 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 8 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jun-2026 05:27:58 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jun-2026 05:27:58 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jun-2026 05:27:58 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[11-Jun-2026 15:02:58 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[11-Jun-2026 15:02:58 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[11-Jun-2026 15:02:59 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 11 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Jun-2026 08:05:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Jun-2026 08:05:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Jun-2026 08:05:51 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 19 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[22-Jun-2026 04:38:34 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[22-Jun-2026 04:38:34 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[22-Jun-2026 04:38:35 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 22 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-Jun-2026 23:38:21 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Jun-2026 23:38:21 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Jun-2026 23:38:21 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[25-Jun-2026 00:23:36 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[25-Jun-2026 00:23:36 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[25-Jun-2026 00:23:37 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 25 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[29-Jun-2026 08:50:14 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[29-Jun-2026 08:50:14 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[29-Jun-2026 08:50:15 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 29 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[02-Jul-2026 00:15:26 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[02-Jul-2026 00:15:26 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[02-Jul-2026 00:15:27 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 2 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[05-Jul-2026 12:18:17 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[05-Jul-2026 12:18:17 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[05-Jul-2026 12:18:19 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 5 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Jul-2026 05:06:18 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Jul-2026 05:06:18 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Jul-2026 05:06:20 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Ju...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[13-Jul-2026 05:54:49 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[13-Jul-2026 05:54:49 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[13-Jul-2026 05:54:49 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 13 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[14-Jul-2026 07:46:59 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[14-Jul-2026 07:46:59 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[14-Jul-2026 07:46:59 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 14 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[17-Jul-2026 04:14:17 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[17-Jul-2026 04:14:17 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[17-Jul-2026 04:14:17 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 17 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Jul-2026 08:09:09 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Jul-2026 08:09:09 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Jul-2026 08:09:10 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 19 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[19-Jul-2026 14:26:36 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[19-Jul-2026 14:26:36 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[19-Jul-2026 14:26:37 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 19 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[20-Jul-2026 09:08:39 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[20-Jul-2026 09:08:39 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[20-Jul-2026 09:08:40 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 20 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-Jul-2026 04:49:27 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Jul-2026 04:49:27 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Jul-2026 04:49:27 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 21 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-Jul-2026 04:49:39 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Jul-2026 04:49:39 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Jul-2026 04:49:39 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 21 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-Jul-2026 06:06:46 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 21 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Jul-2026 02:57:15 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2026 02:57:15 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2026 02:57:15 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Jul-2026 06:26:38 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2026 06:26:38 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2026 06:26:38 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Jul-2026 07:14:49 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2026 07:14:49 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2026 07:14:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[28-Jul-2026 07:15:55 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[28-Jul-2026 07:15:55 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[28-Jul-2026 07:15:56 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 28 J...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[06-Aug-2026 12:13:48 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-Aug-2026 12:13:48 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Aug-2026 12:13:48 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 6 Au...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[06-Aug-2026 12:14:37 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[06-Aug-2026 12:14:37 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[06-Aug-2026 12:14:38 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 6 Au...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[09-Aug-2026 10:42:08 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[09-Aug-2026 10:42:08 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[09-Aug-2026 10:42:09 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 9 Au...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[12-Aug-2026 05:19:52 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Aug-2026 05:19:52 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Aug-2026 05:19:52 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 12 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[12-Aug-2026 07:35:31 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 12 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[18-Aug-2026 14:02:32 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[18-Aug-2026 14:02:32 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[18-Aug-2026 14:02:33 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[20-Aug-2026 23:03:37 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[20-Aug-2026 23:03:37 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[20-Aug-2026 23:03:37 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 20 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[24-Aug-2026 09:14:42 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 24 A...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[30-Aug-2026 14:32:35 America/Chicago] PHP Warning:  Undefined array key "myData" in /home1/loccomxg/copieronrent.com/action.php on line 2
+[30-Aug-2026 14:32:35 America/Chicago] PHP Warning:  Undefined array key "myData" in /home1/loccomxg/copieronrent.com/action.php on line 2
+[12-Sep-2026 07:58:20 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[12-Sep-2026 07:58:20 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[12-Sep-2026 07:58:21 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 12 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-Sep-2026 01:29:59 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Sep-2026 01:29:59 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Sep-2026 01:30:00 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 21 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-Sep-2026 23:09:51 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Sep-2026 23:09:51 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Sep-2026 23:09:52 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 23 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[26-Sep-2026 12:09:22 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 26 S...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(369): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[05-Oct-2026 04:09:12 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 185
+[05-Oct-2026 04:09:12 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 186
+[05-Oct-2026 04:09:12 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 5 Oc...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(265): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[07-Oct-2026 05:51:34 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[07-Oct-2026 05:51:34 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[07-Oct-2026 05:51:34 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 7 Oc...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[07-Oct-2026 05:51:52 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[07-Oct-2026 05:51:52 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[07-Oct-2026 05:51:52 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 7 Oc...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[16-Oct-2026 06:52:19 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[16-Oct-2026 06:52:19 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[16-Oct-2026 06:52:19 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 16 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[21-Oct-2026 01:35:50 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[21-Oct-2026 01:35:50 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[21-Oct-2026 01:35:50 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 21 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[23-Oct-2026 11:36:40 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[23-Oct-2026 11:36:40 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[23-Oct-2026 11:36:41 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 23 O...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033
+[01-Nov-2026 23:18:02 America/Chicago] PHP Warning:  Undefined array key "printer_for" in /home1/loccomxg/copieronrent.com/action.php on line 394
+[01-Nov-2026 23:18:02 America/Chicago] PHP Warning:  Undefined array key "monthly_print" in /home1/loccomxg/copieronrent.com/action.php on line 395
+[01-Nov-2026 23:18:02 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2033
+Stack trace:
+#0 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1847): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1589): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 1 No...', '<!DOCTYPE html>...')
+#2 /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home1/loccomxg/copieronrent.com/action.php(475): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home1/loccomxg/copieronrent.com/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2033

@@ -1,0 +1,638 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Page Title -->
+    <title>Home | Copier On Rent</title>
+    <!--Fevicon-->
+    <link rel="icon" href="assets\img\icon\favicon.bin" type="image/x-icon">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+    <!-- linear-icon -->
+    <link rel="stylesheet" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" href="assets\css\linear-icon.css">
+    <!-- all css plugins css -->
+    <link rel="stylesheet" href="assets\css\plugins.css">
+    <!-- default style -->
+    <link rel="stylesheet" href="assets\css\default.css">
+    <!-- Main Style css -->
+    <link rel="stylesheet" href="assets\css\style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets\css\responsive.css">
+
+    <!-- Modernizer JS -->
+    <script src="assets\js\vendor\modernizr-3.5.0.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+
+</head>
+<body>
+   <!-- header area start -->
+		<header class="header-pos">
+			<div class="header-top white-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-12">
+							<div class="header-top-left">
+								<ul>
+									<li class="list-mb"><span><i class="fa fa-envelope" aria-hidden="true"></i> </span>jayant@copieronrent.com</li>
+									<li><span><i class="fa fa-phone-square" aria-hidden="true"></i> </span> +91-9819845070</li>
+									<li><span><i class="fa fa-map-marker" aria-hidden="true"></i> </span> Andheri-Kurla Rd, Sakinaka, Andheri-E, Mumbai-72</li>
+									<li><span><i class="fa fa-clock-o" aria-hidden="true"></i> </span> Support 24/7</li>
+								</ul>
+							</div>
+							<div class="header-top-right">
+								<ul>
+									<li>
+										<a href="tel:+91-9819845070">
+											<img src="assets\img\icon\callback.gif"  alt="Calling" id="callback_img">
+										</a>
+									</li>
+									<li>
+										<a href="https://web.whatsapp.com/send?phone=+91-9819845070" target="_blank">
+											<img src="assets\img\icon\whatsapp.png"  alt="Whatsapp" id="whatsapp_img">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+ 
+			<div class="header-top-menu theme-bg sticker">
+				<div class="container-fluid menu-height">
+					<div class="row">
+						<div class="col-lg-12">
+							<a href="index.html"><img src="assets\img\logo\logo.png" class="logo-img brand-logo" alt="brand-logo"></a>
+							<div class="top-main-menu">
+								<div class="categories-menu-bar">
+									<div class="categories-menu-btn ha-toggle">
+										<div class="left">
+											<i class="lnr lnr-text-align-left"></i>
+											<span>All Products</span>
+										</div>
+										<div class="right">
+											<i class="lnr lnr-chevron-down"></i>
+										</div>
+									</div>
+									<nav class="categorie-menus ha-dropdown">
+										<ul id="menu2">
+                                        
+											<li><a href="printer-on-rent.html">Printer On Rent</a></li>
+											<li><a href="#">Laptop On Rent</a></li>
+											<li><a href="#">Toner Cartridges</a></li>
+											<!--<li class="category-item-parent"><a class="more-btn" href="#">More Categories</a></li>-->
+										</ul>
+									</nav>
+								</div>
+								<div class="main-menu">
+									<nav id="mobile-menu">
+										<ul>
+											<li><a href="index.html">Home<span class="lnr"></span></a>
+											</li>
+											<li><a href="about.html">About Us<span class="lnr"></span></a>
+											</li>
+                                        
+											<!--<li><a href="#">Products<span class="lnr lnr-chevron-down"></span></a>
+												<ul class="dropdown">
+													<li><a href="rental-products.html">Rental Products</a></li>
+													<li><a href="#">Cartridge Products</a></li>
+												</ul>
+											</li>-->
+											<li><a href="#">Services<span class="lnr lnr-chevron-down"></span></a>
+												<ul class="dropdown">
+													<li><a href="mps.html">MPS</a></li>
+													<li><a href="follow-me-printing.html">Follow Me Printing</a></li>
+													<!--<li><a href="digitalization-service.html">Digitalization Services</a></li>
+													<li><a href="bulk-scanning.html">Bulk Scanning</a></li>-->
+													<li><a href="bulk-documents-scanning.html">Bulk Documents Scanning</a></li>
+													<li><a href="it-solution.html"> IT solutions</a></li>
+													<li><a href="in-house-digital-printing.html">In-house Digital Printing</a></li>
+												</ul>
+											</li>
+											<!--<li><a href="#">Pricing<span class="lnr"></span></a>
+											</li>-->
+											<li><a href="blog.html">Blog<span class="lnr"></span></a>
+											</li>
+											<li><a href="contact.html">Contact Us</a></li>
+											<li><a href="hiring.html" class="hire-menu">Hiring</a></li>
+										</ul>
+									</nav>
+								</div> 
+
+								<!-- </div> end main menu -->
+								<div class="clipped">
+									<!--<span data-toggle="modal" data-target="#freeDemo" class="span-demo" style="cursor: pointer">7 Days<br /> <strong>Free</strong><br />Demo</span>-->
+									<img src="assets\img\Free demo 2.png" class="logo-img brand-logo free-demo" alt="brand-logo" data-toggle="modal" data-target="#freeDemo">
+								</div>
+								<div class="menu-calling">
+									<a href="tel:+91-9819845070">
+										<img src="assets\img\icon\callback.gif"  alt="Calling" id="callback_img">
+									</a>
+									<a href="https://web.whatsapp.com/send?phone=+91-9819845070" target="_blank">
+										<img src="assets\img\icon\whatsapp.png"  alt="Whatsapp" id="whatsapp_img">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 d-block d-lg-none"><div class="mobile-menu"></div></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header area end -->
+
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area mb-30">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+
+    <!-- product details wrapper start -->
+    <div class="product-details-main-wrapper pb-50">
+        <div class="container-fluid">
+            <div class="row">
+                <!--<div class="col-lg-5">
+                    <div class="product-large-slider mb-20">
+                        <div class="pro-large-img">
+                            <img src="assets\img\about-img.jpg" alt="">
+                            <div class="img-view">
+                                <a class="img-popup" href="assets\img\about-img.jpg"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   
+                </div>-->
+                <div class="col-lg-12 about-top">
+                    <div class="product-details-inner">
+                        <div class="product-details-contentt">
+                            <div class="pro-details-name mb-10">
+                                <h2 class="hed-about">About Us</h2>
+                            </div>
+                            
+                            <div class="product-detail-sort-des pb-20">
+                                <p> We  are  Computer  Solutions ( Estd 2003 ).  Firstly  please  accept  our  sincere  thanks  for  think to give us a chance  of  your  service. </p>
+                                 <p>We are is into  the  business  of  importing & providing  Small & Heavy Duty Copiers / Printers ( Black & COLOR ), Heavy Duty Scanners on Hire to End user like  Corporate  Companies, MNC, SMEs, Educational  Institutes, Government  Institutes etc on Hire  &  on  per copy  basis  <span class="red">since  2003.</span>  Due  to there  is  No  chain  of  Distributors, Dealers  etc,  the   Customer   gets   the  ultimate   benefit  from   us. Our  more  than 800+ Customers Saved<span class="red"> 55,000/- to 22,50,000/- Every Year</span> with use of our services. We  have  more  than  50 Models of  Black & COLOR  Printers  for the printing volume of  30 to 25000 copies Daily  per Printer/Copier  Machine. <span class="red">Our machines having all the Features & Functions like...... High Speed Print</span> / Scan / Copy / Network / Duplex / Scan to Folder / Email / Touch Panel / User wise print counter / Print Control / ADF / Password Protection / Access Login Card / Follow Me printing / Central Server Dashboard / AAA Security / Printer History / Daily report on email / Wireless Printing –<span class="red"> Wi-Fi</span> / Scan once & print Many / Documents  can  read  on  Printer Touch Screen with Zoom / Scan send many people at one time / Panel lock to stop misuse of Copier / Department wise Print Counter / Any time Print cancelation from machine & <span class="red">much more features & Functions.... @ No Additional Cost. <span class="blue">We are also offering now…</span>“Rental Printer Copier Ownership Transfer at NO COST”</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- product details wrapper end -->
+        <div class="container-fluid about-content">
+            <div class="row">
+                <div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Printer & Copiers on Rent</h3>
+                        <p class="about-p">We are in the business of providing  Small & Heavy Duty Copiers / Printers (<strong>Black</strong> & <span class="name-skyblue">C</span><span class="name-red">O</span><span class="name-purple">L</span><span class="name-nevyblue">O</span><span class="name-maroon">R</span>), Heavy Duty Scanners on rent & per copy cost to the <strong>800+ customers</strong> from corporate companies, MNC, SMEs, Educational  Institutes, Government  Institutes since 2003. Due to there is no chain of distributors, dealers, etc, the customer gets the ultimate benefit from us. We are saving <strong>Rs 55,000/- to 22,50,000/- every year of each of our customers.</strong> We have more than 50 Models of  Black & COLOR  printers/copiers for the daily printing volume of  30 to 25000 copies per Printer/Copier. </p>
+
+						<p class="about-p">Our machines having all the <strong>Features & Functions</strong> like...... High Speed Print / Scan / Copy / Network / Duplex / Scan to Folder / Email / Touch Panel / <strong>User wise print counter</strong> / Print Control / ADF / <strong>Password Protection</strong> / Access Login Card / <strong>Follow Me printing </strong>/ Central Server Dashboard / AAA Security / Printer History / Daily report on email / Wireless Printing – Wi-Fi / Scan once & print Many / Documents  can  read  on  printer Screen with zoom / send the scan to many people at one time / <strong>Panel lock with password to stop misuse of Copier </strong>/ Department wise Print Counter / Any time Print cancelation from machine & much more features & Functions.... <strong>@ No Additional Cost. We are also offering now…</strong>“Rental Printer Copier Ownership Transfer at NO COST”</p>
+                    </div>
+                </div>
+               	
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Compatible Toner Cartridge under the brand name of Cartridge+</h3>
+                        <p class="about-p">We are a Leading Manufacturer of Toner Cartridges under the Brand Name of <strong>Cartridge+ since 2003</strong>. We are giving the written assurance of Quality & Quantity of print Outs per toner. We are the 1st in the Market who launched the Scheme “ No need to Purchase a new toner Cartridge ( At the cost of Gold ) for Lifetime ”(contact us for more details). We also offer<strong> FREE comprehensive & non-comprehensive AMC of your printer</strong> against the purchase of our brand toner.</p>
+                    </div>
+                </div>
+ 				<div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-2.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Compatible <span class="name-skyblue">C</span><span class="name-red">O</span><span class="name-purple">L</span><span class="name-nevyblue">O</span><span class="name-maroon">R</span> Toner Cartridge under the brand name of Cartridge+</h3>
+                        <p class="about-p">Usually every corporate houses use only original <span class="name-skyblue">C</span><span class="name-red">O</span><span class="name-purple">L</span><span class="name-nevyblue">O</span><span class="name-maroon">R</span> toner at the cost of diamond because of poor quality of recycle cartridge. But we give the <span class="name-skyblue">C</span><span class="name-red">O</span><span class="name-purple">L</span><span class="name-nevyblue">O</span><span class="name-maroon">R</span> toner cartridge with a surety of actual color prints with 12 months warranty under the brand name of Cartridge+.</p>
+                    </div>
+                </div>
+                
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Laptop on RENT</h3>
+                        <p class="about-p">We are a leading Company in Mumbai for All Type Of Laptops gives on rent with <strong> very competitive price.</strong> We offer a wide range of laptops on rent including all windows, business series, MacBook, Notebook series & Enterprises Laptops. We also offer laptops on rent for <strong>very short term </strong>like 1 day, 1 week, 1 month, 1 Quarter.</p> 
+                    </div>
+                </div>
+ 				<div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-4.png" alt="">
+                    </div>
+                </div>
+            
+                <div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Laptop Chip Level Repairing</h3>
+                        <p class="about-p">We also do the Laptop repairing at chip-level in Motherboard, Keyboard panel, Display unit, Graphic unit, etc. Our very talented engineers will <strong>visit your office</strong> & in a major case, they will give the diagnose report on the Spot. We have 2 repairing Labs in Mumbai for the Best & Quick services. We are maybe the <strong>one & only who gives 6 months warranty</strong> on every repaired laptop with Part warranty.</p> 
+                    </div>
+                </div>
+            
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Laptop sale at unbeatable price</h3>
+                        <p class="about-p">Because we are bulk buyers of the Laptop, we can give the unbeatable prices with the service after the sale.</p>
+                    </div>
+                </div>
+ 				<div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-6.png" alt="">
+                    </div>
+                </div>
+            
+                <div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-7.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>In-house Digital Printing from A5 to A0 Size</h3>
+                        <p class="about-p">We have an in-house setup at Andheri (Mumbai) for the <strong>Bulk digital Black & Color printing from size A5 to A0</strong>. We also do the <strong>scanning</strong> job for this size.</p> 
+                    </div>
+                </div>
+              
+              
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>IT Solutions</h3>
+                        <p class="about-p">We help people and businesses purchase computers, yearly comprehensive AMC, Non-Comprehensive AMC that meet their needs within their price range. We help them set up the computers, and explain how to accomplish their required tasks.</p> 
+
+						<p class="about-p">Our expertise is diverse. We can and have worked with every aspect of computers. If it's something we cannot help you with directly, we have many other resources, and will be happy to point you in the right direction for your solutions.</p>
+                    </div>
+                </div>
+ 				<div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-8.png" alt="">
+                    </div>
+                </div>
+            
+                <div class="col-sm-4 col-lg-4">
+                    <div class="about-img">
+                        <img src="assets\img\about\abt-9.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-8">
+                    <div class="about-info">
+                    	<h3>Document scanning service at your Location</h3>
+                        <p class="about-p">We are doing a <strong>bulk Scanning Job with manpower</strong> provide at the Client’s Location ( at our Location also, if required) with an enterprise-level scanner & its software. We also give the machinery on rent for documnets digitalization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  
+
+   <!-- scroll to top -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div> <!-- /End Scroll to Top -->
+
+    <!-- footer area start -->  
+		<footer>
+			<!-- news-letter area start -->
+			<div class="newsletter-group">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="newsletter-box">
+								<div class="newsletter-inner">
+									<div class="newsletter-title">
+										<h3>Sign Up For Newsletters</h3>
+										<p>Be the First to Know. Sign up for newsletter today</p>
+									</div>
+									<div class="newsletter-box">
+										<form id="mc-form">
+											<input type="email" id="mc-email" autocomplete="off" class="email-box" placeholder="enter your email">
+											<button class="newsletter-btn" type="submit" id="mc-submit">subscribe</button>
+										</form>
+									</div>
+								</div>
+								<div class="link-follow">
+									<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+									<a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a>
+									<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+								</div>
+							</div>
+							<!-- mailchimp-alerts Start -->
+							<div class="mailchimp-alerts">
+								<div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+								<div class="mailchimp-success"></div><!-- mailchimp-success end -->
+								<div class="mailchimp-error"></div><!-- mailchimp-error end -->
+							</div><!-- mailchimp-alerts end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- news-letter area end -->
+			<!-- footer top area start -->
+			<div class="footer-top pt-50 pb-50">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-single-widget">
+								<div class="widget-title">
+									<div class="footer-logo mb-30">
+										<a href="index.html">
+											<img src="assets\img\logo\logo.png" class="logo-img" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="widget-body footer-content">
+									<p>We are <strong>Computer Solutions</strong> ( Estd 2003 ).</p>
+                                	<ul>
+                                		<li>Copier & Printer on rent</li>
+                                		<li>Copier</li>
+                                		<li>Toner Recycle under Cartridge+ Brand</li>
+                                		<li>Laptop on rent</li>
+                                		<li>Laptop sale</li>
+                                		<li>Printer & Copier Sale</li>
+                                		<li>Laptop Board Level Repairing</li>
+                                		<li>In-house Digital Printing</li>
+                                		<li>IT Solution</li>
+                                		<li>Bulk Documents Scanning</li>
+                                	</ul>
+								</div>
+							</div>
+						</div> <!-- single widget end -->
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="footer-single-widget">
+								<div class="widget-title">
+									<h4>Menu</h4>
+								</div>
+								<div class="widget-body">
+									<div class="footer-useful-link">
+										<ul>
+											<li class="footer-li"><a href="index.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Home </a></li>
+											<li class="footer-li"><a href="about.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;About Us </a></li>
+											<li class="footer-li"><a href="blog.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Blog </a></li>
+											<li class="footer-li"><a href="contact.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Contact </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div> <!-- single widget end -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-single-widget">
+								<div class="widget-title">
+									<h4>Information</h4>
+								</div>
+								<div class="widget-body">
+									<div class="footer-useful-link">
+										<ul>
+											<li class="footer-li"><a href="printer-on-rent.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Printer On Rent </a></li>
+											<li class="footer-li"><a href="#"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Laptop On Rent </a></li>
+											<li class="footer-li"><a href="#"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Toner Cartridges </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div> <!-- single widget end -->
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-single-widget">
+								<div class="widget-title">
+									<h4>contact us</h4>
+								</div>
+								<div class="widget-body">
+									<div class="footer-useful-link">
+										<ul>
+											<li><span>Address:</span> 215, East West centre, Andheri-Kurla Rd, Sakinaka, Andheri-E, Mumbai-72</li>
+											<li><span>email:</span> jayant@copieronrent.com </li>
+											<li><span>Call us:</span> <strong>+91-9819845070</strong></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div> <!-- single widget end -->
+                   
+					</div>
+				</div>
+			</div>
+			<!-- footer top area end -->
+			<!-- footer bottom area start -->
+			<div class="footer-bottom">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 col-lg-12">
+							<div class="footer-bottom-content">
+								<div class="footer-copyright">
+									<p>Copyright © 2021 <a href="#">Copier On Rent.</a>  All rights reserved.</p>
+								</div>
+                            
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- footer bottom area end -->
+		</footer>
+		<!-- footer area end -->
+
+		<!--Super Offer Sticky--> 
+		<div class="sticky-container">
+			<ul class="sticky-2">
+				<li class="chat">
+					<span type="button" data-toggle="modal" data-target="#superOffer"><a href="#"><img src="assets/img/offer.png" class="offer-img" alt=""></a></span>
+				</li>
+			</ul>
+		</div>
+
+		<!-- free demo model -->
+		<div class="container">
+			<!-- The Modal -->
+			<div class="modal fade" id="freeDemo">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">7 Days Free Demo</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<!-- Modal body -->
+						<div class="modal-body">
+							<form role="form" method="post" id="freeDemoForm" name="freeDemoForm" >
+                        
+								<div class="form-group">
+									<label for="name"> Name:</label>
+									<input type="text" class="form-control" id="name" name="name" onkeyup="isNull(this.id)">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input type="email" class="form-control" id="email" name="email" onkeyup="return isEmail(this.id)">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="phone Number"> Phone:</label>
+									<input type="text" class="form-control" id="phone" name="phone"  onkeypress="return isNum(event)" onblur="isMobile(this.id)" maxlength="11">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="name">Message:</label>
+									<textarea class="form-control" name="message" id="message" placeholder="Your Message Here" rows="7"></textarea>
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+                       
+							</form>
+							<button type="submit" class="btn btn-lg btn-success btn-block" id="btnFreeDemo" onclick="freeDemo()">Submit →</button>
+						</div>
+                
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+                
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- offer modal -->
+		<div class="container">
+			<!-- The Modal -->
+			<div class="modal fade" id="superOffer">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Super Offer</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<!-- Modal body -->
+						<div class="modal-body">
+							<div class="modal-banner">
+								<img src="assets\img\discount-banner.jpg"/>
+								<!--<img src="assets\img\free demo 1.png" class="logo-img brand-logo free-demo" alt="brand-logo" data-toggle="modal" data-target="#freeDemo">-->
+							</div>
+							<form role="form" method="post" id="superOfferForm" name="superOfferForm" >
+								<div class="form-group">
+									<label for="name"> Name:</label>
+									<input type="text" class="form-control" id="offer_name" name="offer_name" onkeyup="isNull(this.id)">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input type="email" class="form-control" id="offer_email" name="offer_email" onkeyup="return isEmail(this.id)">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="phone Number"> Phone:</label>
+									<input type="text" class="form-control" id="offer_phone" name="offer_phone"  onkeypress="return isNum(event)" onblur="isMobile(this.id)" maxlength="11">
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+								<div class="form-group">
+									<label for="name">Message:</label>
+									<textarea class="form-control" name="offer_message" id="offer_message" placeholder="Your Message Here" rows="7"></textarea>
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+							</form>
+							<button type="submit" class="btn btn-lg btn-success btn-block" id="btnSuperOffer" onclick="superOffer()">Submit →</button>
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Thank you modal -->
+		<div class="container">
+			<!-- The Modal -->
+			<div class="modal fade" id="thankModal">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<!-- Modal body -->
+						<div class="modal-body">
+							<div class="thank-content">
+								<h3>Thank You!</h3>
+							</div>
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- all js include here -->
+		<script src="assets\js\vendor\jquery-1.12.4.min.js"></script>
+		<script src="assets\js\popper.min.js"></script>
+		<script src="assets\js\bootstrap.min.js"></script>
+		<script src="assets\js\plugins.js"></script>
+		<script src="assets\js\ajax-mail.js"></script>
+		<script src="assets\js\main.js"></script>
+		<script src="assets\js\script.js"></script>
+   
+    
+
+</body>
+</html>
