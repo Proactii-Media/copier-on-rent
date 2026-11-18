@@ -295,14 +295,7 @@
 
 
 
-                <!-- CATEGORY FILTER -->
-                <div class="nav flex-column nav-pills mt-3" id="category-filter">
-
-                    <button class="nav-link active category-btn" data-filter="all" type="button">
-                        All Categories
-                    </button>
-
-                </div>
+          
 
 
             </div>
@@ -2090,7 +2083,7 @@
                                     <div class="product-content">
                                         <p>
                                             <a href="HP-A4-Brand-New-LaserJet-Printer.html">
-                                                A4 B&W LaserJet Printer Only Printer
+                                                A4 B&W LaserJet Printer (Only Printer)
                                             </a>
                                         </p>
                                         <div class="product-price">
@@ -3618,188 +3611,166 @@
     <script src="assets\js\main.js"></script>
     <script src="assets\js\script.js"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
 
-            const brandButtons = document.querySelectorAll(".brand-btn");
-            const categoryFilter = document.getElementById("category-filter");
-            const productCards = document.querySelectorAll(".product-card");
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-            const allCategoryButton = categoryFilter.querySelector(
-                '[data-filter="all"]'
-            );
+    const brandFilter = document.getElementById("brand-filter");
+    const brandButtons = brandFilter.querySelectorAll(".brand-btn");
+    const productCards = document.querySelectorAll(".product-card");
 
-            let selectedBrand = "all";
-            let selectedCategory = "all";
+    let selectedBrand = "all";
+    let selectedCategory = "all";
 
-            // Get product slug
-            function getProductSlug(card) {
-                const link = card.querySelector(".product-img a");
+    // Get brand from product URL
+    function getBrand(card) {
 
-                return link
-                    ? link.getAttribute("href").split("/").pop().toLowerCase()
-                    : "";
-            }
+        const link = card.querySelector(".product-img a");
+        const filename = link
+            ? link.getAttribute("href").split("/").pop().toLowerCase()
+            : "";
 
-            // Get brand from product URL
-            function getBrand(card) {
-                const filename = getProductSlug(card);
+        if (filename.startsWith("konica-minolta-")) {
+            return "konica";
+        }
 
-                if (filename.startsWith("konica-minolta-")) {
-                    return "konica";
+        return filename.split("-")[0];
+    }
+
+    // Add brand counts
+    brandButtons.forEach(button => {
+
+        const filter = button.dataset.filter.toLowerCase();
+
+        const count = [...productCards].filter(card => {
+            return filter === "all" || getBrand(card) === filter;
+        }).length;
+
+        let badge = document.createElement("span");
+        badge.className = "brand-count";
+        badge.textContent = count;
+
+        button.appendChild(badge);
+    });
+
+    // Remove previously generated category buttons
+    function removeCategoryButtons() {
+        brandFilter.querySelectorAll(".category-btn").forEach(button => {
+            button.remove();
+        });
+    }
+
+    // Generate categories inside the same brand filter
+    function updateCategories() {
+
+        removeCategoryButtons();
+        selectedCategory = "all";
+
+        if (selectedBrand === "all") return;
+
+        const categoryCounts = {};
+
+        productCards.forEach(card => {
+
+            if (getBrand(card) === selectedBrand) {
+
+                const category = card.dataset.category;
+
+                if (category) {
+                    categoryCounts[category] =
+                        (categoryCounts[category] || 0) + 1;
                 }
-
-                return filename.split("-")[0];
             }
+        });
 
-            // Add brand counts
+        Object.entries(categoryCounts)
+            .sort(([a], [b]) => a.localeCompare(b))
+            .forEach(([category, count]) => {
+
+                const button = document.createElement("button");
+
+                button.className = "nav-link category-btn";
+                button.dataset.filter = category;
+                button.type = "button";
+
+                const categoryName = category
+                    .split("-")
+                    .map(word => word.toUpperCase())
+                    .join(" ");
+
+                button.innerHTML = `
+                    ${categoryName}
+                    <span class="brand-count">${count}</span>
+                `;
+
+                
+            });
+    }
+
+    // Filter products
+    function filterProducts() {
+
+        productCards.forEach(card => {
+
+            const brand = getBrand(card);
+            const category = card.dataset.category;
+
+            const brandMatch =
+                selectedBrand === "all" || brand === selectedBrand;
+
+            const categoryMatch =
+                selectedCategory === "all" || category === selectedCategory;
+
+            const column = card.closest(".paddingtopcard");
+
+            if (column) {
+                column.style.display =
+                    brandMatch && categoryMatch ? "" : "none";
+            }
+        });
+    }
+
+    // Brand and category click
+    brandFilter.addEventListener("click", function (event) {
+
+        const brandButton = event.target.closest(".brand-btn");
+        const categoryButton = event.target.closest(".category-btn");
+
+        if (brandButton) {
+
+            selectedBrand = brandButton.dataset.filter.toLowerCase();
+            selectedCategory = "all";
+
             brandButtons.forEach(button => {
-
-                const filter = button.dataset.filter.toLowerCase();
-
-                const count = [...productCards].filter(card => {
-                    return filter === "all" || getBrand(card) === filter;
-                }).length;
-
-                let countElement = button.querySelector(".brand-count");
-
-                if (!countElement) {
-                    countElement = document.createElement("span");
-                    countElement.className = "brand-count";
-                    button.appendChild(countElement);
-                }
-
-                countElement.textContent = count;
-
+                button.classList.remove("active");
             });
 
-            // Update categories based on selected brand
+            brandButton.classList.add("active");
 
-            function updateCategories() {
-
-                // Remove old category buttons
-                categoryFilter.querySelectorAll(
-                    ".category-btn:not([data-filter='all'])"
-                ).forEach(button => button.remove());
-
-                selectedCategory = "all";
-
-                // All Brands: No categories, All Categories stays active
-                if (selectedBrand === "all") {
-                    allCategoryButton.classList.add("active");
-                    return;
-                }
-
-                // Count categories
-                const categoryCounts = {};
-
-                productCards.forEach(card => {
-
-                    const brand = getBrand(card);
-                    const category = card.dataset.category;
-
-                    if (category && brand === selectedBrand) {
-                        categoryCounts[category] =
-                            (categoryCounts[category] || 0) + 1;
-                    }
-
-                });
-
-                // Create category buttons only once
-                Object.entries(categoryCounts)
-                    .sort(([a], [b]) => a.localeCompare(b))
-                    .forEach(([category, count]) => {
-
-                        const button = document.createElement("button");
-
-                        button.className = "nav-link category-btn";
-                        button.dataset.filter = category;
-                        button.type = "button";
-
-                        const categoryName = category
-                            .split("-")
-                            .map(word => word.toUpperCase())
-                            .join(" ");
-
-                        button.innerHTML = `
-                ${categoryName}
-                <span class="category-count">${count}</span>
-            `;
-
-                        categoryFilter.appendChild(button);
-
-                    });
-
-                allCategoryButton.classList.add("active");
-            }
-
-            // Filter products
-            function filterProducts() {
-
-                productCards.forEach(card => {
-
-                    const brand = getBrand(card);
-                    const category = card.dataset.category;
-
-                    const brandMatch =
-                        selectedBrand === "all" || brand === selectedBrand;
-
-                    const categoryMatch =
-                        selectedCategory === "all" || category === selectedCategory;
-
-                    const column = card.closest(".paddingtopcard");
-
-                    if (column) {
-                        column.style.display =
-                            brandMatch && categoryMatch ? "" : "none";
-                    }
-
-                });
-
-            }
-
-            // Brand button click
-            brandButtons.forEach(button => {
-
-                button.addEventListener("click", function () {
-
-                    selectedBrand = this.dataset.filter.toLowerCase();
-
-                    brandButtons.forEach(btn => btn.classList.remove("active"));
-
-                    this.classList.add("active");
-
-                    updateCategories();
-                    filterProducts();
-
-                });
-
-            });
-
-            // Category click (event delegation)
-            categoryFilter.addEventListener("click", function (event) {
-
-                const button = event.target.closest(".category-btn");
-
-                if (!button || !categoryFilter.contains(button)) return;
-
-                selectedCategory = button.dataset.filter;
-
-                categoryFilter.querySelectorAll(".category-btn")
-                    .forEach(btn => btn.classList.remove("active"));
-
-                button.classList.add("active");
-
-                filterProducts();
-
-            });
-
-            // Initial load
             updateCategories();
             filterProducts();
+        }
 
-        });
-    </script>
+        if (categoryButton) {
+
+            selectedCategory = categoryButton.dataset.filter;
+
+            brandFilter.querySelectorAll(".category-btn").forEach(button => {
+                button.classList.remove("active");
+            });
+
+            categoryButton.classList.add("active");
+
+            filterProducts();
+        }
+    });
+
+    // Initial load
+    filterProducts();
+
+});
+</script>
+
 
 
 </body>
