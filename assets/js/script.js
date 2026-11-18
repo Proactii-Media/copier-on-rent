@@ -845,3 +845,100 @@ $('#hiringForm').validate({
 			form.submit();				
 		}
 	});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const filterButtons = document.querySelectorAll(".brand-btn");
+    const productCards = document.querySelectorAll(".product-card");
+
+    let selectedCategory = "all";
+
+    // Add category counts
+    filterButtons.forEach(button => {
+
+        const filter = button.dataset.filter;
+
+        const count = [...productCards].filter(card => {
+            return filter === "all" ||
+                   card.dataset.category === filter;
+        }).length;
+
+        let countElement = button.querySelector(".brand-count");
+
+        if (!countElement) {
+            countElement = document.createElement("span");
+            countElement.className = "brand-count";
+            button.appendChild(countElement);
+        }
+
+        countElement.textContent = count;
+
+    });
+
+    // Filter products
+    function filterProducts() {
+
+        productCards.forEach(card => {
+
+            const category = card.dataset.category;
+
+            const match =
+                selectedCategory === "all" ||
+                category === selectedCategory;
+
+            const column = card.closest(".paddingtopcard");
+
+            if (column) {
+                column.style.display = match ? "" : "none";
+            }
+
+        });
+
+    }
+
+    // Category button click
+    filterButtons.forEach(button => {
+
+        button.addEventListener("click", function () {
+
+            selectedCategory = this.dataset.filter;
+
+            filterButtons.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            this.classList.add("active");
+
+            filterProducts();
+
+        });
+
+    });
+
+    // Initial load
+    filterProducts();
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

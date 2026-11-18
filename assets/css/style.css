@@ -13387,3 +13387,44 @@ margin-top: 15px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     z-index: 5;
 }
+
+.toppadding {
+    padding-top: 0%;
+    padding-bottom: 2%;
+    
+}
+#brand-filter {
+    padding-top: 15px;
+}
+
+  .brand-count {
+    float: right;
+    background-color: #4D9FFF;
+    color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+    .paddingtoppara a {
+        background-color: #fcf8e3;
+        padding: .2rem;
+        display: inline;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+      .product-price {
+        margin-top: 15px !important;
+    }
+
+        .paddingtopcard {
+        padding-top: 15px;
+        
+    }
