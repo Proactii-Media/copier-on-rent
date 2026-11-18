@@ -172,9 +172,8 @@
                                 <span class="lnr lnr-chevron-down pl-2"></span>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="CateMenu1">
-                                <a class="dropdown-item" href="printer-on-rent.html">Printer On Rent</a>
-                                <a class="dropdown-item" href="#">Laptop On Rent</a>
-                                <a class="dropdown-item" href="#">Toner Cartridges</a>
+                                <a class="dropdown-item" href="Products.html">All Products</a>
+                                <a class="dropdown-item" href="Category.html">All Categories</a>
                             </div>
                         </div>
 
@@ -257,7 +256,7 @@
                     </button>
 
                     <button class="nav-link brand-btn" data-filter="canon" type="button">
-                      A4 B&W LaserJet Printer with Network & Duplex
+                        A4 B&W LaserJet Printer with Network & Duplex
                     </button>
                 </div>
             </div>
@@ -285,7 +284,7 @@
                                     <div class="product-content">
                                         <p class="paddingtoppara">
                                             <a href="Canon-A4-BW-LaserJet-Only-Printer-Category.html">
-                                               A4 B&W LaserJet Printer with Network & Duplex
+                                                A4 B&W LaserJet Printer with Network & Duplex
                                             </a>
                                         </p>
 
@@ -297,7 +296,7 @@
                             </div>
 
 
-                         
+
 
 
                         </div>
@@ -810,164 +809,164 @@
     <script src="assets\js\script.js"></script>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
-    const brandFilter = document.getElementById("brand-filter");
-    const brandButtons = brandFilter.querySelectorAll(".brand-btn");
-    const productCards = document.querySelectorAll(".product-card");
+            const brandFilter = document.getElementById("brand-filter");
+            const brandButtons = brandFilter.querySelectorAll(".brand-btn");
+            const productCards = document.querySelectorAll(".product-card");
 
-    let selectedBrand = "all";
-    let selectedCategory = "all";
+            let selectedBrand = "all";
+            let selectedCategory = "all";
 
-    // Get brand from product URL
-    function getBrand(card) {
+            // Get brand from product URL
+            function getBrand(card) {
 
-        const link = card.querySelector(".product-img a");
-        const filename = link
-            ? link.getAttribute("href").split("/").pop().toLowerCase()
-            : "";
+                const link = card.querySelector(".product-img a");
+                const filename = link
+                    ? link.getAttribute("href").split("/").pop().toLowerCase()
+                    : "";
 
-        if (filename.startsWith("konica-minolta-")) {
-            return "konica";
-        }
-
-        return filename.split("-")[0];
-    }
-
-    // Add brand counts
-    brandButtons.forEach(button => {
-
-        const filter = button.dataset.filter.toLowerCase();
-
-        const count = [...productCards].filter(card => {
-            return filter === "all" || getBrand(card) === filter;
-        }).length;
-
-        let badge = document.createElement("span");
-        badge.className = "brand-count";
-        badge.textContent = count;
-
-        button.appendChild(badge);
-    });
-
-    // Remove previously generated category buttons
-    function removeCategoryButtons() {
-        brandFilter.querySelectorAll(".category-btn").forEach(button => {
-            button.remove();
-        });
-    }
-
-    // Generate categories inside the same brand filter
-    function updateCategories() {
-
-        removeCategoryButtons();
-        selectedCategory = "all";
-
-        if (selectedBrand === "all") return;
-
-        const categoryCounts = {};
-
-        productCards.forEach(card => {
-
-            if (getBrand(card) === selectedBrand) {
-
-                const category = card.dataset.category;
-
-                if (category) {
-                    categoryCounts[category] =
-                        (categoryCounts[category] || 0) + 1;
+                if (filename.startsWith("konica-minolta-")) {
+                    return "konica";
                 }
+
+                return filename.split("-")[0];
             }
-        });
 
-        Object.entries(categoryCounts)
-            .sort(([a], [b]) => a.localeCompare(b))
-            .forEach(([category, count]) => {
+            // Add brand counts
+            brandButtons.forEach(button => {
 
-                const button = document.createElement("button");
+                const filter = button.dataset.filter.toLowerCase();
 
-                button.className = "nav-link category-btn";
-                button.dataset.filter = category;
-                button.type = "button";
+                const count = [...productCards].filter(card => {
+                    return filter === "all" || getBrand(card) === filter;
+                }).length;
 
-                const categoryName = category
-                    .split("-")
-                    .map(word => word.toUpperCase())
-                    .join(" ");
+                let badge = document.createElement("span");
+                badge.className = "brand-count";
+                badge.textContent = count;
 
-                button.innerHTML = `
+                button.appendChild(badge);
+            });
+
+            // Remove previously generated category buttons
+            function removeCategoryButtons() {
+                brandFilter.querySelectorAll(".category-btn").forEach(button => {
+                    button.remove();
+                });
+            }
+
+            // Generate categories inside the same brand filter
+            function updateCategories() {
+
+                removeCategoryButtons();
+                selectedCategory = "all";
+
+                if (selectedBrand === "all") return;
+
+                const categoryCounts = {};
+
+                productCards.forEach(card => {
+
+                    if (getBrand(card) === selectedBrand) {
+
+                        const category = card.dataset.category;
+
+                        if (category) {
+                            categoryCounts[category] =
+                                (categoryCounts[category] || 0) + 1;
+                        }
+                    }
+                });
+
+                Object.entries(categoryCounts)
+                    .sort(([a], [b]) => a.localeCompare(b))
+                    .forEach(([category, count]) => {
+
+                        const button = document.createElement("button");
+
+                        button.className = "nav-link category-btn";
+                        button.dataset.filter = category;
+                        button.type = "button";
+
+                        const categoryName = category
+                            .split("-")
+                            .map(word => word.toUpperCase())
+                            .join(" ");
+
+                        button.innerHTML = `
                     ${categoryName}
                     <span class="brand-count">${count}</span>
                 `;
 
-                
-            });
-    }
 
-    // Filter products
-    function filterProducts() {
-
-        productCards.forEach(card => {
-
-            const brand = getBrand(card);
-            const category = card.dataset.category;
-
-            const brandMatch =
-                selectedBrand === "all" || brand === selectedBrand;
-
-            const categoryMatch =
-                selectedCategory === "all" || category === selectedCategory;
-
-            const column = card.closest(".paddingtopcard");
-
-            if (column) {
-                column.style.display =
-                    brandMatch && categoryMatch ? "" : "none";
+                    });
             }
+
+            // Filter products
+            function filterProducts() {
+
+                productCards.forEach(card => {
+
+                    const brand = getBrand(card);
+                    const category = card.dataset.category;
+
+                    const brandMatch =
+                        selectedBrand === "all" || brand === selectedBrand;
+
+                    const categoryMatch =
+                        selectedCategory === "all" || category === selectedCategory;
+
+                    const column = card.closest(".paddingtopcard");
+
+                    if (column) {
+                        column.style.display =
+                            brandMatch && categoryMatch ? "" : "none";
+                    }
+                });
+            }
+
+            // Brand and category click
+            brandFilter.addEventListener("click", function (event) {
+
+                const brandButton = event.target.closest(".brand-btn");
+                const categoryButton = event.target.closest(".category-btn");
+
+                if (brandButton) {
+
+                    selectedBrand = brandButton.dataset.filter.toLowerCase();
+                    selectedCategory = "all";
+
+                    brandButtons.forEach(button => {
+                        button.classList.remove("active");
+                    });
+
+                    brandButton.classList.add("active");
+
+                    updateCategories();
+                    filterProducts();
+                }
+
+                if (categoryButton) {
+
+                    selectedCategory = categoryButton.dataset.filter;
+
+                    brandFilter.querySelectorAll(".category-btn").forEach(button => {
+                        button.classList.remove("active");
+                    });
+
+                    categoryButton.classList.add("active");
+
+                    filterProducts();
+                }
+            });
+
+            // Initial load
+            filterProducts();
+
         });
-    }
-
-    // Brand and category click
-    brandFilter.addEventListener("click", function (event) {
-
-        const brandButton = event.target.closest(".brand-btn");
-        const categoryButton = event.target.closest(".category-btn");
-
-        if (brandButton) {
-
-            selectedBrand = brandButton.dataset.filter.toLowerCase();
-            selectedCategory = "all";
-
-            brandButtons.forEach(button => {
-                button.classList.remove("active");
-            });
-
-            brandButton.classList.add("active");
-
-            updateCategories();
-            filterProducts();
-        }
-
-        if (categoryButton) {
-
-            selectedCategory = categoryButton.dataset.filter;
-
-            brandFilter.querySelectorAll(".category-btn").forEach(button => {
-                button.classList.remove("active");
-            });
-
-            categoryButton.classList.add("active");
-
-            filterProducts();
-        }
-    });
-
-    // Initial load
-    filterProducts();
-
-});
-</script>
+    </script>
 
 
 

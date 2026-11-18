@@ -13399,7 +13399,7 @@ margin-top: 15px;
 
   .brand-count {
     float: right;
-    background-color: #4D9FFF;
+    background-color: #0d6efd;
     color: #fff;
     border-radius: 50%;
     width: 24px;
@@ -13415,16 +13415,22 @@ margin-top: 15px;
     .paddingtoppara a {
         background-color: #fcf8e3;
         padding: .2rem;
+        margin-bottom: 10px;
         display: inline;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
     }
 
-      .product-price {
-        margin-top: 15px !important;
-    }
+ 
 
         .paddingtopcard {
         padding-top: 15px;
         
     }
+
+
+    .nav-link.hiring-link {
+        display: none !important;
+    }
+
+

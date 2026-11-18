@@ -2,16 +2,6 @@
 <html class="no-js" lang="en">
 
 <style>
-    .compare-uls {
-        display: none !important;
-    }
-
-    .paddingtopcard {
-        padding-top: 15px;
-    }
-
-
-
     #brand-filter .category-btn {
         display: flex;
         justify-content: space-between;
@@ -30,34 +20,6 @@
         text-align: center;
         flex: none;
         margin-left: 8px
-    }
-
-
-    .paddingtoppara a {
-        background-color: #fcf8e3;
-        padding: .2rem;
-        display: inline;
-        -webkit-box-decoration-break: clone;
-        box-decoration-break: clone;
-    }
-
-    .product-price {
-        margin-top: 15px !important;
-    }
-
-
-    .brand-count {
-        float: right;
-        background-color: #4D9FFF;
-        border-radius: 50%;
-        width: 24px;
-        height: 24px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px;
-        margin-left: 5px;
-        padding: 0;
     }
 </style>
 
@@ -179,9 +141,8 @@
                                 <span class="lnr lnr-chevron-down pl-2"></span>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="CateMenu1">
-                                <a class="dropdown-item" href="printer-on-rent.html">Printer On Rent</a>
-                                <a class="dropdown-item" href="#">Laptop On Rent</a>
-                                <a class="dropdown-item" href="#">Toner Cartridges</a>
+                                <a class="dropdown-item" href="Products.html">All Products</a>
+                                <a class="dropdown-item" href="Category.html">All Categories</a>
                             </div>
                         </div>
 
@@ -3677,6 +3638,25 @@
                 });
             });
         });
+    </script>
+
+    <script>
+        // Show products with a price first; products without a price go to the end
+(function () {
+    var row = document.querySelector("#v-pills-all .row");
+    if (!row) return;
+    var items = Array.prototype.slice.call(row.querySelectorAll(":scope > .paddingtopcard"));
+
+    function hasPrice(el) {
+        var p = el.querySelector(".price-value");
+        return !!p && /\d/.test(p.textContent) && p.textContent.indexOf("?") === -1;
+    }
+
+    var priced = items.filter(hasPrice);
+    var unpriced = items.filter(function (el) { return !hasPrice(el); });
+
+    priced.concat(unpriced).forEach(function (el) { row.appendChild(el); });
+})();
     </script>
 
 
