@@ -4,9 +4,13 @@
 <style>
     #brand-filter .category-btn {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        text-align: left
+    }
+
+    #brand-filter .category-btn .cat-count {
+        margin-left: auto;
+        flex-shrink: 0;
     }
 
     #brand-filter .cat-count {
@@ -248,12 +252,16 @@
                     </button>
 
                     <button class="nav-link category-btn" data-filter="a4-color-laser-printer" type="button">
-                        A4 Color Printer
+                        A4&nbsp;<span class="name-skyblue">C</span><span class="name-red">O</span><span
+                            class="name-purple">L</span><span class="name-nevyblue">O</span><span
+                            class="name-maroon">U</span><span class="name-skyblue">R</span>&nbsp;Printer
                         <span class="cat-count">0</span>
                     </button>
 
                     <button class="nav-link category-btn" data-filter="a4-color-mfp" type="button">
-                        A4 Color MFP
+                        A4 &nbsp;<span class="name-skyblue">C</span><span class="name-red">O</span><span
+                            class="name-purple">L</span><span class="name-nevyblue">O</span><span
+                            class="name-maroon">U</span><span class="name-skyblue">R</span>&nbsp; MFP
                         <span class="cat-count">0</span>
                     </button>
 
@@ -263,7 +271,9 @@
                     </button>
 
                     <button class="nav-link category-btn" data-filter="a3-color-mfp" type="button">
-                        A3 Color MFP
+                        A3&nbsp;<span class="name-skyblue">C</span><span class="name-red">O</span><span
+                            class="name-purple">L</span><span class="name-nevyblue">O</span><span
+                            class="name-maroon">U</span><span class="name-skyblue">R</span>&nbsp;MFP
                         <span class="cat-count">0</span>
                     </button>
 
@@ -278,7 +288,9 @@
                     </button>
 
                     <button class="nav-link category-btn" data-filter="a4-color-inkjet-mfp" type="button">
-                        A4 Color Inkjet MFP
+                        A4&nbsp;<span class="name-skyblue">C</span><span class="name-red">O</span><span
+                            class="name-purple">L</span><span class="name-nevyblue">O</span><span
+                            class="name-maroon">U</span><span class="name-skyblue">R</span>&nbsp;Inkjet MFP
                         <span class="cat-count">0</span>
                     </button>
 
@@ -3215,7 +3227,8 @@
                                 <div class="footer-useful-link">
                                     <ul>
                                         <li class="footer-li"><a href="index.html"><i
-                                                    class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Home </a></li>
+                                                    class="fa fa-aInformationInformationngle-double-right"></i>&nbsp;&nbsp;Home
+                                            </a></li>
                                         <li class="footer-li"><a href="about.html"><i
                                                     class="fa fa-angle-double-right"></i>&nbsp;&nbsp;About Us </a></li>
                                         <!--<li class="footer-li"><a href="blog.html"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Blog </a></li>-->
@@ -3234,15 +3247,17 @@
                             <div class="widget-body">
                                 <div class="footer-useful-link">
                                     <ul>
-                                        <li class="footer-li"><a href="printer-on-rent.html"><i
-                                                    class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Printer On Rent
-                                            </a></li>
-                                        <li class="footer-li"><a href="#"><i
-                                                    class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Laptop On Rent
-                                            </a></li>
-                                        <li class="footer-li"><a href="#"><i
-                                                    class="fa fa-angle-double-right"></i>&nbsp;&nbsp; Toner Cartridges
-                                            </a></li>
+                                        <li class="footer-li">
+                                            <a href="Products.html">
+                                                <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Products
+                                            </a>
+                                        </li>
+                                        <li class="footer-li">
+                                            <a href="Category.html">
+                                                <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Categories
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -3642,21 +3657,21 @@
 
     <script>
         // Show products with a price first; products without a price go to the end
-(function () {
-    var row = document.querySelector("#v-pills-all .row");
-    if (!row) return;
-    var items = Array.prototype.slice.call(row.querySelectorAll(":scope > .paddingtopcard"));
+        (function () {
+            var row = document.querySelector("#v-pills-all .row");
+            if (!row) return;
+            var items = Array.prototype.slice.call(row.querySelectorAll(":scope > .paddingtopcard"));
 
-    function hasPrice(el) {
-        var p = el.querySelector(".price-value");
-        return !!p && /\d/.test(p.textContent) && p.textContent.indexOf("?") === -1;
-    }
+            function hasPrice(el) {
+                var p = el.querySelector(".price-value");
+                return !!p && /\d/.test(p.textContent) && p.textContent.indexOf("?") === -1;
+            }
 
-    var priced = items.filter(hasPrice);
-    var unpriced = items.filter(function (el) { return !hasPrice(el); });
+            var priced = items.filter(hasPrice);
+            var unpriced = items.filter(function (el) { return !hasPrice(el); });
 
-    priced.concat(unpriced).forEach(function (el) { row.appendChild(el); });
-})();
+            priced.concat(unpriced).forEach(function (el) { row.appendChild(el); });
+        })();
     </script>
 
 
