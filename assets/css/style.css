@@ -14213,11 +14213,11 @@ ol {
     border-right: none;
 }
 
-.service-tab:hover,
+/* .service-tab:hover,
 .service-tab.active {
     background: #753C94;
     color: #fff;
-}
+} */
 
 .service-content {
     display: none;
@@ -15013,6 +15013,36 @@ ol {
 /* CTA Band */
 .abt-cta-wrap {
     padding: clamp(20px, 4vw, 40px) 0 clamp(40px, 6vw, 30px);
+}
+
+.service-tab:nth-child(5n + 1):hover,
+.service-tab:nth-child(5n + 1).active {
+    background: #753C94;
+    color: #fff;
+}
+
+.service-tab:nth-child(5n + 2):hover,
+.service-tab:nth-child(5n + 2).active {
+    background: #2D85C5;
+    color: #fff;
+}
+
+.service-tab:nth-child(5n + 3):hover,
+.service-tab:nth-child(5n + 3).active {
+    background: #E03D72;
+    color: #fff;
+}
+
+.service-tab:nth-child(5n + 4):hover,
+.service-tab:nth-child(5n + 4).active {
+    background: #D2702E;
+    color: #fff;
+}
+
+.service-tab:nth-child(5n + 5):hover,
+.service-tab:nth-child(5n + 5).active {
+    background: #B4CD4A;
+    color: #fff;
 }
 
 .abt-cta-band {
