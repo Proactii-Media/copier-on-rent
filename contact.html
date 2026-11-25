@@ -197,7 +197,7 @@
 	<!-- breadcrumb area end -->
 
 	<!-- contact form two -->
-	<div class="contact-two-area pt-60 pb-70">
+	<!-- <div class="contact-two-area pt-60 pb-70">
 		<div class="container-fluid">
 
 			<div class="row">
@@ -236,13 +236,7 @@
 										</span>
 									</font>
 								</div>
-								<!--<div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input id="contact_subject" name="contact_subject" placeholder="Subject *" type="text">   
-									<font color="#FF0000" size="-5">
-										<span class="val-msg">
-										</span>
-									</font>
-                                </div>-->
+						
 								<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
 									<select id="contact_printer_for" id="contact_printer_for" class="w-100 printer-for">
 										<option value="">Select Rental Printer for</option>
@@ -275,9 +269,7 @@
 									</div>
 
 								</div>
-								<!--<div class="col-12 d-flex justify-content-center">
-                                    <p class="form-messege"></p>
-                                </div>-->
+							
 							</div>
 						</form>
 						<div class="col-12">
@@ -293,7 +285,7 @@
 						<div class="col-12">
 							<div class="contact2-title text-center mb-60">
 								<h2>Reach Us</h2>
-								<!-- <p>Claritas est etiam processus dynamicus, Maria Denardo is the Fashion Director at the Fashion Spot mutationem consuetudium lectorum.</p>-->
+								
 							</div>
 						</div>
 					</div>
@@ -333,8 +325,160 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
+	<!-- Contact Section -->
+	<section class="contact-two-area">
+		<div class="container">
+			<div class="row align-items-center">
+
+
+				<div class="col-lg-7">
+					<div class="contact-form-box">
+
+						<div class="contact-heading">
+							<span class="contact-subtitle">GET IN TOUCH</span>
+							<h2>Let's Find the Right Printer for You</h2>
+							<p>Tell us your printing requirements. Our team will help you find the right rental
+								solution.</p>
+						</div>
+
+						<form role="form" method="post" id="contactUsForm" name="contactUsForm">
+
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="contact-field">
+
+										<input id="contact_name" name="contact_name" type="text"
+											placeholder="Enter your name *" onkeyup="isNull(this.id)">
+										<span class="val-msg"></span>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="contact-field">
+
+										<input type="text" id="contact_phone" name="contact_phone"
+											placeholder="Enter phone number" onkeypress="return isNum(event)"
+											onblur="isMobile(this.id)" maxlength="11">
+										<span class="val-msg"></span>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="contact-field">
+
+										<input type="email" id="contact_email" name="contact_email"
+											placeholder="Enter your email" onkeyup="return isEmail(this.id)">
+										<span class="val-msg"></span>
+									</div>
+								</div>
+
+
+
+								<div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+									<select id="contact_printer_for" id="contact_printer_for" class="w-100 printer-for">
+										<option value="">Select Rental Printer for</option>
+										<option value="For the short term (less than 1 months)">For the short term (less
+											than 1 months)</option>
+										<option value="For long term">For long term</option>
+									</select>
+									<font color="#FF0000" size="-5">
+										<span class="val-msg">
+										</span>
+									</font>
+								</div>
+
+								<div class="col-md-6">
+									<div class="contact-field">
+
+										<input type="text" id="contact_monthly_print" name="contact_monthly_print"
+											placeholder="Monthly Approx. Prints / Copies"
+											onkeypress="return isNum(event)" maxlength="6">
+										<span class="val-msg"></span>
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="contact-field">
+
+										<textarea name="contact_message" id="contact_message"
+											placeholder="Your Message Here" rows="5"></textarea>
+										<span class="val-msg"></span>
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="contact-submit">
+										<button class="contact-send-btn" type="button" id="btnSuperOffer"
+											onclick="contactUs()">
+											Send Message <i class="fa fa-arrow-right"></i>
+										</button>
+
+									</div>
+								</div>
+
+							</div>
+						</form>
+
+					</div>
+				</div>
+
+
+				<div class="col-lg-5">
+					<div class="contact-info-box">
+
+						<div class="contact-heading">
+							<span class="contact-subtitle">CONTACT INFORMATION</span>
+							<h2>Reach Us</h2>
+							<p>Have questions about printer rentals? We're here to help.</p>
+						</div>
+
+						<div class="contact-info-item">
+							<div class="contact-info-icon">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="contact-info-content">
+								<h4>Our Office</h4>
+								<p>1206-1207, Ajmera Sikova,<br>
+									Sikova Industries Road, Opp Damodar Park,<br>
+									LBS Road, Ghatkopar West,<br>
+									Mumbai 400086</p>
+							</div>
+						</div>
+
+						<div class="contact-info-item">
+							<div class="contact-info-icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="contact-info-content">
+								<h4>Call Us</h4>
+								<a href="tel:+919819845070">+91-9819845070</a>
+								<a href="tel:+918080045070">+91-8080045070</a>
+							</div>
+						</div>
+
+						<div class="contact-info-item">
+							<div class="contact-info-icon">
+								<i class="fa fa-envelope"></i>
+							</div>
+							<div class="contact-info-content">
+								<h4>Email Us</h4>
+								<a href="mailto:jayant@copieronrent.com">
+									jayant@copieronrent.com
+								</a>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 	<!-- contact us area -->
 	<section class="contact-style-2 pt-30 pb-35">
@@ -357,35 +501,42 @@
                         <p>1206-1207, Ajmera Sikova, Sikova Industries Road, Opp Damodar Park, LBS road, Ghatkopar West, Mumbai 400086.</p>
                     </div>
                 </div>-->
+
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="contact-single-info mb-30 text-center">
 						<div class="contact-icon">
 							<i class="fa fa-map-marker"></i>
 						</div>
 						<h3>Andheri Branch</h3>
-						<p>215, East West center, Opp MTNL, Safed Pool, Andheri Kurla road, Sakinaka, Mumbai 400072.</p>
+						<p>215, East West Center, Opp. MTNL, Safed Pool, Andheri Kurla Road, Sakinaka, Mumbai - 400072.
+						</p>
+
 					</div>
 				</div>
+
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="contact-single-info mb-30 text-center">
 						<div class="contact-icon">
 							<i class="fa fa-map-marker"></i>
 						</div>
 						<h3>Fort Branch</h3>
-						<p>Office no 7, Poddar chamber, Opp Mumbai Samachar Press, Janmbhoomi Marg, Fort, Mumbai 400001.
-						</p>
+						<p>Office No. 7, Poddar Chamber, Opp. Mumbai Samachar Press, Janmabhoomi Marg, Fort, Mumbai -
+							400001.</p>
+
 					</div>
 				</div>
+
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="contact-single-info mb-30 text-center">
 						<div class="contact-icon">
 							<i class="fa fa-map-marker"></i>
 						</div>
-						<!--<h3>Navi Mumbai office</h3>-->
 						<h3>Branch</h3>
-						<p>201, C, Nest business park, Sector 30D, Rabale, Navi Mumbai - 400701.</p>
+						<p>201, C, Nest Business Park, Sector 30D, Rabale, Navi Mumbai - 400701.</p>
+
 					</div>
 				</div>
+
 
 			</div>
 		</div>
@@ -527,17 +678,17 @@
 							<div class="widget-body">
 								<div class="footer-useful-link">
 									<ul>
-									<li class="footer-li">
-                                        <a href="Products.html">
-                                            <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Products
-                                        </a>
-                                    </li>
-                                    <li class="footer-li">
-                                        <a href="Category.html">
-                                            <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Categories
-                                        </a>
-                                    </li>
-								</ul>
+										<li class="footer-li">
+											<a href="Products.html">
+												<i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Products
+											</a>
+										</li>
+										<li class="footer-li">
+											<a href="Category.html">
+												<i class="fa fa-angle-double-right"></i>&nbsp;&nbsp; All Categories
+											</a>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
