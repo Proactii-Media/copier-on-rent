@@ -15189,3 +15189,9 @@ ol {
 .contact-single-info:hover .contact-icon i {
     color: #fff;
 }
+
+
+    .mps-image:hover img {
+    opacity: 0.7;
+}
+
