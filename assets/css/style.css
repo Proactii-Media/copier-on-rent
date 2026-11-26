@@ -13694,9 +13694,9 @@ ol {
 /* Image */
 .mps-image {
     width: 100%;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 0px;
 }
 
 .mps-image img {
@@ -13704,12 +13704,15 @@ ol {
     height: auto;
     display: block;
     object-fit: cover;
-    border-radius: 12px;
 }
 
 /* Introduction */
 .mps-intro {
     margin-bottom: 30px;
+}
+
+.mps-name{
+    margin-top: 25px;
 }
 
 .mps-title {
@@ -13850,10 +13853,7 @@ ol {
 
 /* Mobile */
 @media (max-width: 575px) {
-    .mps-image {
-        margin-bottom: 25px;
-        border-radius: 8px;
-    }
+ 
 
     .mps-title {
         font-size: 21px;
