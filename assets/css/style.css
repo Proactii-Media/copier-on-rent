@@ -14914,8 +14914,59 @@ margin-top: 8px;
     transition: transform 0.4s;
 }
 
-.abt-feature--alt .abt-feature__media {
+/* .abt-feature--alt .abt-feature__media {
     background: linear-gradient(150deg, #fff8f3 0%, #ffffff 100%);
+} */
+
+/* Light Background Colours */
+.abt-feature:nth-child(5n + 1) .abt-feature__media {
+    background: linear-gradient(150deg, #F3EAF7 0%, #FFFFFF 100%);
+}
+
+.abt-feature:nth-child(5n + 2) .abt-feature__media {
+    background: linear-gradient(150deg, #EAF3FA 0%, #FFFFFF 100%);
+}
+
+.abt-feature:nth-child(5n + 3) .abt-feature__media {
+    background: linear-gradient(150deg, #FCEBF1 0%, #FFFFFF 100%);
+}
+
+.abt-feature:nth-child(5n + 4) .abt-feature__media {
+    background: linear-gradient(150deg, #FBF0E7 0%, #FFFFFF 100%);
+}
+
+.abt-feature:nth-child(5n + 5) .abt-feature__media {
+    background: linear-gradient(150deg, #F5F8E8 0%, #FFFFFF 100%);
+}
+
+/* 01 - Purple */
+.abt-feature:nth-child(5n + 1) .abt-feature__media {
+    background: linear-gradient(150deg, #F3EAF7 0%, #FFFFFF 100%);
+    border: 1px solid #753C94;
+}
+
+/* 02 - Blue */
+.abt-feature:nth-child(5n + 2) .abt-feature__media {
+    background: linear-gradient(150deg, #EAF3FA 0%, #FFFFFF 100%);
+    border: 1px solid #2D85C5;
+}
+
+/* 03 - Pink */
+.abt-feature:nth-child(5n + 3) .abt-feature__media {
+    background: linear-gradient(150deg, #FCEBF1 0%, #FFFFFF 100%);
+    border: 1px solid #E03D72;
+}
+
+/* 04 - Orange */
+.abt-feature:nth-child(5n + 4) .abt-feature__media {
+    background: linear-gradient(150deg, #FBF0E7 0%, #FFFFFF 100%);
+    border: 1px solid #D2702E;
+}
+
+/* 05 - Green */
+.abt-feature:nth-child(5n + 5) .abt-feature__media {
+    background: linear-gradient(150deg, #F5F8E8 0%, #FFFFFF 100%);
+    border: 1px solid #B4CD4A;
 }
 
 .abt-feature:hover .abt-feature__media {
