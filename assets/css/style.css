@@ -13850,6 +13850,13 @@ ol {
         font-size: 24px;
     }
 }
+.mps-number {
+margin-top: 8px;
+}
+/* Mobile */
+@media (max-width: 850px) {
+
+}
 
 /* Mobile */
 @media (max-width: 575px) {
@@ -13882,9 +13889,10 @@ ol {
     }
 
     .mps-number {
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
         font-size: 12px;
+        margin-top: 3%;
     }
 
     .mps-benefit-content h3 {
@@ -13923,7 +13931,7 @@ ol {
 .follow-list {
     list-style: none;
     padding: 22px 25px;
-    margin: 0 0 20px;
+    /* margin: 0 0 20px; */
     background: #fff;
     border: 1px solid #e8edf3;
     border-radius: 10px;
